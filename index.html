@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Naru Jai's academic website with research, publications, CV, projects, and awards."
+    />
+    <title>Naru Jai | Electrical and Computer Engineering</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <img
+            class="avatar-box profile-photo"
+            src="assets/profile.jpg"
+            alt="Naru Jai"
+          />
+          <div class="info-content">
+            <h1 class="name">Naru Jai</h1>
+            <p class="title">Ph.D. Candidate @ ECE,<br />Virginia Tech</p>
+            <ul class="social-links" aria-label="Profile links">
+              <li>
+                <a class="social-link outlook-logo" href="mailto:naru@vt.edu" aria-label="Email Naru Jai">
+                  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+                    <path fill="#0A66C2" d="M28 11h14c1.1 0 2 .9 2 2v22c0 1.1-.9 2-2 2H28V11Z" />
+                    <path fill="#28A8EA" d="M28 14h16v20H28V14Z" />
+                    <path fill="#0078D4" d="M28 13.6 44 24 28 34.4V13.6Z" />
+                    <path fill="#50D9FF" d="M44 14.3 35.8 24 44 33.7V14.3Z" />
+                    <path fill="#0364B8" d="M4 10.4 29 6v36L4 37.6V10.4Z" />
+                    <path fill="#fff" d="M16.2 16.5c-4.2 0-7.1 3.2-7.1 7.5s2.9 7.5 7.1 7.5 7.1-3.2 7.1-7.5-2.9-7.5-7.1-7.5Zm0 3.2c2 0 3.4 1.6 3.4 4.3s-1.4 4.3-3.4 4.3-3.4-1.6-3.4-4.3 1.4-4.3 3.4-4.3Z" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="social-link linkedin-logo" href="https://www.linkedin.com/in/naru-jai-ba98071a1/" aria-label="Naru Jai on LinkedIn">
+                  <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                    <path fill="#0A66C2" d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0Z" />
+                    <path fill="#fff" d="M7.12 20.45H3.56V9h3.56v11.45ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13Zm15.11 13.02h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28Z" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link scholar-logo"
+                  href="https://scholar.google.com/citations?user=_3fTdqYAAAAJ&hl=en&oi=ao"
+                  aria-label="Naru Jai on Google Scholar"
+                >
+                  <svg viewBox="0 0 48 48" focusable="false" aria-hidden="true">
+                    <circle cx="24" cy="24" r="21" fill="#4285F4" />
+                    <path fill="#fff" d="M24 10.5 9.2 19.7 24 29l14.8-9.3L24 10.5Z" />
+                    <path fill="#e8f0fe" d="M15.6 25v5.3c0 3.6 3.8 6.4 8.4 6.4s8.4-2.8 8.4-6.4V25L24 30.3 15.6 25Z" />
+                    <path fill="#fff" d="M36.7 20.1v10.7h-2.5v-9.1l2.5-1.6Z" />
+                    <circle cx="35.5" cy="33.2" r="2.1" fill="#fff" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li><button class="navbar-link active" data-nav-link>About</button></li>
+            <li><button class="navbar-link" data-nav-link>CV</button></li>
+            <li><button class="navbar-link" data-nav-link>Publications</button></li>
+            <li><button class="navbar-link" data-nav-link>Articles</button></li>
+            <li>
+              <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to light mode">
+                <span class="theme-toggle-track" aria-hidden="true">
+                  <span class="theme-toggle-thumb"></span>
+                  <span class="theme-symbol sun-symbol">☀</span>
+                  <span class="theme-symbol moon-symbol">☾</span>
+                </span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="page active" data-page="about">
+          <header><h2 class="article-title">About Me</h2></header>
+          <section class="about-text">
+            <p>
+              Hi! Welcome to my website. I am Naru Jai, a Ph.D. candidate in Computer Engineering at Virginia Tech. My expertise is in developing scalable and real-time algorithms for optimizing radio resource allocation and compliance-aware network performance to address practical spectrum-sharing and RF coexistence challenges in next-generation wireless systems across commercial and federal bands.
+            </p>
+            <p>
+              I have worked on coexistence problems in the Citizens Broadband Radio Service (CBRS) band, Automated Frequency Coordination (AFC)-controlled 6 GHz access, and active-passive spectrum sharing, including 5G out-of-band emission modeling for radio astronomy protection.
+            </p>
+            <p>
+              My industry experience includes an internship at Federated Wireless, where I worked on incumbent-protection algorithms and methodologies for the 3 GHz and CBRS bands.
+            </p>
+            <p>
+              I am currently exploring new opportunities across academia and industry. Please feel free to reach out at <a class="inline-email-link" href="mailto:naru@vt.edu">naru@vt.edu</a> to connect, discuss potential opportunities, or learn more about my work.
+            </p>
+          </section>
+
+        </article>
+
+        <article class="page" data-page="cv">
+          <header class="article-header cv-header">
+            <h2 class="article-title">CV</h2>
+            <a class="cv-download-link" href="assets/CV_Website.pdf" download>
+              <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                <path
+                  d="M8.7 12.8 14.6 7c1.3-1.3 3.5-1.3 4.8 0s1.3 3.5 0 4.8l-8 8c-1.9 1.9-5.1 1.9-7 0s-1.9-5.1 0-7l8.6-8.6c2.5-2.5 6.5-2.5 9 0"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <span>Download Complete CV</span>
+            </a>
+          </header>
+          <section class="timeline-section resume-card">
+            <h3 class="section-title">Education</h3>
+            <ol class="timeline-list">
+              <li><h4>Doctor of Philosophy, Computer Engineering</h4><span>Virginia Tech, Aug. 2019 - Aug. 2026</span></li>
+              <li><h4>Master of Science, Computer Engineering</h4><span>Virginia Tech, Aug. 2019 - May 2022</span></li>
+              <li><h4>Bachelor of Engineering, Electronics and Telecommunication</h4><span>University of Mumbai, Jul. 2014 - Jun. 2018</span></li>
+            </ol>
+          </section>
+
+          <section class="timeline-section resume-card">
+            <h3 class="section-title">Experience</h3>
+            <ol class="timeline-list">
+              <li><h4>Graduate Research Assistant</h4><span>Bradley Department of ECE and Commonwealth Cyber Initiative (CCI), Virginia Tech, Aug. 2020 - May 2026</span></li>
+              <li><h4>Technology Intern</h4><span>Federated Wireless, May 2022 - Aug. 2022</span></li>
+              <li>
+                <h4>Graduate Teaching Assistant</h4>
+                <span>Virginia Tech ECE</span>
+                <ul class="experience-detail-list">
+                  <li>ECE 2274 - Electronic Circuits Laboratory I, Aug. 2019 - Dec. 2019</li>
+                  <li>ECE 3274 - Electronic Circuits Laboratory II, Jan. 2020 - May 2020</li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+
+          <section class="resume-card">
+            <h3 class="section-title">Skills</h3>
+            <ul class="skill-list">
+              <li><strong>Programming:</strong> MATLAB, Python, C/C++, Java</li>
+              <li><strong>Simulation Tools:</strong> Jupyter, Spyder, Eclipse</li>
+              <li><strong>Optimization:</strong> Gurobi, CVX</li>
+              <li><strong>Geospatial Tools:</strong> QGIS, Google Earth Pro</li>
+            </ul>
+          </section>
+
+          <section class="resume-card">
+            <h3 class="section-title">Patent</h3>
+            <ul class="skill-list">
+              <li>Move Lists for Interference Management in Shared Radio Spectrum, U.S. Patent Application No. 63/764,924 (Pending).</li>
+            </ul>
+          </section>
+
+          <section class="timeline-section resume-card">
+            <h3 class="section-title">Honors and Awards</h3>
+            <ol class="timeline-list">
+              <li>
+                <h4>CCI Research Paper Showcase, 2025</h4>
+                <span>
+                  Research paper “Out-of-Band Interference Management to Protect Radio
+                  Astronomy” was featured by the Commonwealth Cyber Initiative as impactful
+                  CCI-funded research in wireless systems.
+                </span>
+              </li>
+              <li>
+                <h4>Vanu Bose Best Paper Award, 2024</h4>
+                <span>
+                  Awarded by the National Spectrum Consortium at IEEE MILCOM for “Out-of-Band
+                  Interference Management to Protect Radio Astronomy,” with an associated
+                  $5,000 prize.
+                </span>
+              </li>
+              <li>
+                <h4>IEEE MILCOM Student Travel Grant, 2024</h4>
+                <span>
+                  Received a $250 NSF-sponsored student travel grant to attend IEEE MILCOM
+                  in Washington, D.C.
+                </span>
+              </li>
+              <li>
+                <h4>IEEE DySPAN Student Travel Grant, 2024</h4>
+                <span>
+                  Received a $1,500 NSF-sponsored student travel grant to attend IEEE DySPAN
+                  in Washington, D.C.
+                </span>
+              </li>
+              <li>
+                <h4>CCI SWVA Cyber Innovation Scholar, 2023 and 2024</h4>
+                <span>
+                  Awarded $2,000 professional development grants in both years through the
+                  Commonwealth Cyber Initiative SWVA Cyber Scholars Program.
+                </span>
+              </li>
+              <li>
+                <h4>IEEE INFOCOM Student Travel Grant, 2023</h4>
+                <span>
+                  Received a $1,000 NSF-sponsored travel grant to attend IEEE INFOCOM in
+                  Hoboken, New Jersey.
+                </span>
+              </li>
+              <li>
+                <h4>Best Poster Award, 2022</h4>
+                <span>
+                  Recognized at the CCI SWVA Student Researcher Showcase for the poster
+                  “Robust Interference Mitigation for Spectrum Sharing in the CBRS Band.”
+                </span>
+              </li>
+              <li>
+                <h4>Best Paper Runner-up Award, 2021</h4>
+                <span>
+                  Received at IEEE DySPAN for “Optimal Channel Allocation in the CBRS Band
+                  with Shipborne Radar Incumbents.”
+                </span>
+              </li>
+              <li>
+                <h4>Late Prof. Sundararajan Award, 2018</h4>
+                <span>
+                  Received at INNOVEX, Don Bosco Institute of Technology, for the project
+                  “Near Real-Time Sensing System for Hydroponics-based Urban Farming.”
+                </span>
+              </li>
+              <li>
+                <h4>Ranked 3rd in Undergraduate Program, 2014 - 2016</h4>
+                <span>
+                  Secured 3rd rank during the first two years of the undergraduate program
+                  at Don Bosco Institute of Technology in a class of 80 students.
+                </span>
+              </li>
+            </ol>
+          </section>
+
+          <section class="resume-card">
+            <div class="section-title-row">
+              <h3 class="section-title">Reviewer Service</h3>
+              <a class="section-link" href="https://www.webofscience.com/wos/author/record/LFV-2636-2024">Web of Science</a>
+            </div>
+            <ul class="skill-list">
+              <li>IEEE Transactions on Cognitive Communications and Networking (TCCN)</li>
+              <li>IEEE Internet of Things Journal (IoT-J)</li>
+              <li>IEEE Transactions on Communications (TCOM)</li>
+            </ul>
+          </section>
+
+          <section class="timeline-section resume-card">
+            <h3 class="section-title">Presentations</h3>
+            <ol class="timeline-list">
+              <li><h4>Varuna: Maximizing 5G Coverage with Out-of-Band Interference Protection for Radio Astronomy</h4><span>IEEE MILCOM 2025, Los Angeles, CA, Oct. 2025</span></li>
+              <li><h4>Out-of-Band Interference Management to Protect Radio Astronomy</h4><span>IEEE MILCOM 2024, Washington, D.C., Oct. 2024</span></li>
+              <li><h4>Interference-Aware Spectrum Sharing for 5G-Passive Service Coexistence</h4><span>Poster, IEEE MILCOM Young Scholar Workshop, Washington, D.C., Oct. 2024</span></li>
+              <li><h4>Out-of-Band Interference Management to Protect Radio Astronomy</h4><span>Poster, CCI Symposium 2024, Richmond, VA, Apr. 2024</span></li>
+              <li><h4>An Optimized Move List for DPA in CBRS</h4><span>IEEE DySPAN 2024, Washington, D.C., May 2024</span></li>
+              <li><h4>Robust Interference Mitigation for Spectrum Sharing in the CBRS Band</h4><span>Poster, CCI Showcase 2023, Virginia Tech, Blacksburg, VA, Mar. 2023</span></li>
+              <li><h4>Optimal Channel Allocation in the CBRS Band with Shipborne Radar Incumbents</h4><span>IEEE DySPAN 2021, Virtual Conference, Dec. 2021</span></li>
+            </ol>
+          </section>
+
+        </article>
+
+        <article class="page" data-page="publications">
+          <header><h2 class="article-title">Publications</h2></header>
+          <section class="resume-card">
+            <h3 class="section-title">Journal and Magazine Papers</h3>
+            <ol class="publication-list">
+              <li><strong>N. Jai</strong>, Y. Shi, W. Lou, L. DaSilva, and Y.T. Hou, "Optimizing 5G Coverage under Out-of-Band Interference Protection for Radio Astronomy," <em>IEEE Transactions on Cognitive Communications and Networking</em>, under review.</li>
+              <li><strong>N. Jai</strong>, Y. Shi, Y. Wu, Y.T. Hou, W. Lou, and L. DaSilva, "Revolving Move Lists: A Novel Approach to Ensure Fairness During Interference Protection Periods in CBRS," <em>IEEE Transactions on Cognitive Communications and Networking</em>, under review.</li>
+              <li><strong>N. Jai</strong>, Y. Shi, H. Zeng, W. Lou, and Y.T. Hou, "Pay-As-You-Go via Spectrum Bux: A New Paradigm for Dynamic Spectrum Access," <em>IEEE Communications Magazine</em>, accepted, 2026.</li>
+              <li><strong>N. Jai</strong>, Y. Shi, M. Olfat, J.H. Reed, L. DaSilva, W. Lou, and Y.T. Hou, "An Optimized Move List for Dynamic Protection Area in CBRS," <em>IEEE Transactions on Cognitive Communications and Networking</em>, vol. 11, no. 3, pp. 1382-1396, June 2025.</li>
+              <li><strong>N. Jai</strong>, Y. Shi, S. Li, C. Li, Y.T. Hou, W. Lou, J.H. Reed, M. Olfat, S. Kompella, and L. DaSilva, "Modeling and Optimization of Channel Allocation for PAL and GAA Users in the CBRS Band," <em>IEEE Transactions on Cognitive Communications and Networking</em>, vol. 10, no. 1, pp. 1-20, Feb. 2024.</li>
+            </ol>
+          </section>
+
+          <section class="resume-card">
+            <h3 class="section-title">Conference Papers</h3>
+            <ol class="publication-list">
+              <li><strong>N. Jai</strong>, Y. Shi, W. Lou, L. DaSilva, and Y.T. Hou, "Varuna: Maximizing 5G Coverage with Out-of-Band Interference Protection for Radio Astronomy," in <em>Proc. IEEE MILCOM</em>, 6 pages, Oct. 6-10, 2025, Los Angeles, CA, USA.</li>
+              <li><strong>N. Jai</strong>, Y. Shi, Y. Wu, Y.T. Hou, W. Lou and L. DaSilva, "Taking Turns: Toward Revolving Move Lists for Interference Protection in CBRS," in <em>Proc. IEEE DySPAN</em>, 8 pages, May 12-16, 2025, London, UK.</li>
+              <li><strong>N. Jai</strong>, Y. Shi, W. Lou, L. DaSilva, and Y.T. Hou, "Out-of-Band Management to Protect Radio Astronomy," in <em>Proc. IEEE MILCOM</em>, pp. 1150-1155, Oct. 28-Nov. 1, 2024, Washington D.C., USA. <span class="badge">Vanu Bose Best Paper Award</span></li>
+              <li><strong>N. Jai</strong>, Y. Shi, M. Olfat, J.H. Reed, L. DaSilva, W. Lou, and Y.T. Hou, "An Optimized Move List for DPA in CBRS," in <em>Proc. IEEE DySPAN</em>, pp. 88-96, May 13-16, 2024, Washington D.C., USA.</li>
+              <li><strong>N. Jai</strong>, S. Li, C. Li, Y.T. Hou, W. Lou, J.H. Reed and S. Kompella, "Optimal Channel Allocation in the CBRS Band with Shipborne Radar Incumbents," in <em>Proc. IEEE DySPAN</em>, pp. 80-88, Dec. 13-15, 2021, Virtual. <span class="badge">Best Paper Runner-up Award</span></li>
+              <li><strong>N. Jai</strong>, B. Dontha, A. Tripathy and S. S. Mande, "Near Real Time - Sensing System for Hydroponics Based Urban Farming," in <em>Proc. IEEE I2CT</em>, 5 pages, Apr. 6-8, 2018, Pune, India.</li>
+            </ol>
+          </section>
+        </article>
+
+        <article class="page" data-page="articles">
+          <header><h2 class="article-title">Articles</h2></header>
+          <section class="blog-posts">
+            <article>
+              <span>2025</span>
+              <h3>Multi-List Strategy for Spectrum Interference Management</h3>
+              <p>
+                Virginia Tech Intellectual Properties technology listing for a dynamic
+                interference-management strategy in shared-spectrum environments.
+              </p>
+              <a href="https://vtip.technologypublisher.com/technology/58028">View technology</a>
+            </article>
+            <article>
+              <span>2025</span>
+              <h3>Out-of-Band Interference Management to Protect Radio Astronomy</h3>
+              <p>
+                CCI Research Paper Showcase feature for the IEEE MILCOM paper recognized
+                with the Dr. Vanu Bose Best Paper Award.
+              </p>
+              <a href="https://cyberinitiative.org/research/research-showcase/2025/out-of-band.html">Read article</a>
+            </article>
+            <article>
+              <span>2024</span>
+              <h3>NSC Distributes Fourth Annual Bose Paper Award</h3>
+              <p>
+                National Spectrum Consortium announcement for the Vanu Bose Best Paper Award.
+              </p>
+              <a href="https://www.nationalspectrumconsortium.org/news-detail/nsc-distributes-fourth-annual-bose-paper-award">Read article</a>
+            </article>
+            <article>
+              <span>2022</span>
+              <h3>Students Bring Spark, Power, and Drive to Cybersecurity Research</h3>
+              <p>
+                Virginia Tech News feature spotlighting Commonwealth Cyber Initiative student
+                researchers, including work on CBRS channel allocation and 5G/Next-G systems.
+              </p>
+              <a href="https://news.vt.edu/articles/2022/10/students-bring-spark-power-and-drive-to-cybersecurity-research.html">Read article</a>
+            </article>
+            <article>
+              <span>2022</span>
+              <h3>Cybersecurity Showcase Conveys Impact and Reach of Student Research</h3>
+              <p>
+                Virginia Tech News coverage of the CCI Student Researcher Showcase and Best
+                Poster Award recognition for spectrum-sharing research.
+              </p>
+              <a href="https://news.vt.edu/articles/2022/03/cci-swva-showcase-22.html">Read article</a>
+            </article>
+          </section>
+        </article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Naru Jai</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
