@@ -695,6 +695,7 @@ body.light-theme .theme-toggle-track {
 
   .navbar {
     position: fixed;
+    top: auto;
     right: 0;
     bottom: 0;
     left: 0;
